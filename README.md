@@ -26,23 +26,8 @@ Speech Detection (SSD):
 
 ## Dataset Structure
 
-Audio/
-
-├── Train/
-
-│   ├── bonafide/
-
-│   └── spoof/
-├── Val/
-│   └── ASV19LA/
-│       ├── bonafide/
-│       └── spoof/
-└── Test/
-    ├── ASV19LA/
-    ├── ASV21DF/
-    └── In-the-Wild/
-
-Each evaluation dataset contains separate `bonafide` and `spoof` directories.
+Audio\Image -> Train\Val\Test -> Dataset name -> Bonafide\Spoof for train
+Each leaf folder contains separate `bonafide` and `spoof` folders.
 
 ## Datasets
 
