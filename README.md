@@ -27,8 +27,11 @@ Speech Detection (SSD):
 ## Dataset Structure
 
 Audio/
+
 ├── Train/
+
 │   ├── bonafide/
+
 │   └── spoof/
 ├── Val/
 │   └── ASV19LA/
