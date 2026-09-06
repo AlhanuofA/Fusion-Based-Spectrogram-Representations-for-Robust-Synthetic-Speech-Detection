@@ -27,6 +27,7 @@ Speech Detection (SSD):
 ## Dataset Structure
 
 Audio\Image -> Train\Val\Test -> Dataset name -> Bonafide\Spoof for train
+
 Each leaf folder contains separate `bonafide` and `spoof` folders.
 
 ## Datasets
